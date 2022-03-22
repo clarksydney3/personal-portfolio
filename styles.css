@@ -1,0 +1,44 @@
+/* light purple: C5AEA9 */
+/* dark brown: #664b3d; */
+/* green: 8EA366 */
+
+.hero-image {
+  background: url(./media/pictures/51d4bd026badfe7d52d5fe25a37841f9.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  background-position: center;
+}
+
+.name {
+  padding: 10px;
+}
+
+@media (min-width: 600px) {
+  .hero-text {
+    font-weight: bold;
+    position: absolute;
+    border-radius: 20px;
+    color: #8ea366;
+    font-size: 100px;
+    margin: 250px;
+    border: 5px dashed #c5aea9;
+    text-align: center;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@media (max-width: 600px) {
+  .hero-text {
+    font-weight: bold;
+    position: absolute;
+    border-radius: 20px;
+    color: #8ea366;
+    font-size: 100px;
+    margin: 250px;
+    border: 5px solid #c5aea9;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    background-color: #664b3d;
+  }
+}
