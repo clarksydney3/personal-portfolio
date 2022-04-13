@@ -5,6 +5,9 @@
 /* yellow: F6EA64 */
 /* orange: EEA148 */
 
+.hero {
+  height: 600px;
+}
 .hero-background {
   background: #f29569;
   background-repeat: no-repeat;
