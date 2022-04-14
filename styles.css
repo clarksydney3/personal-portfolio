@@ -5,6 +5,9 @@
 /* yellow: F6EA64 */
 /* orange: EEA148 */
 
+.section {
+  padding-top: 150px;
+}
 .hero {
   height: 600px;
 }
