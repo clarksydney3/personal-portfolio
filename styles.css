@@ -4,9 +4,10 @@
 /* Light peachy/pink: F29569 */
 /* yellow: F6EA64 */
 /* orange: EEA148 */
+/* light purple: A3849B */
 
-.section {
-  padding-top: 150px;
+.body {
+  margin: 00;
 }
 .hero {
   height: 600px;
@@ -65,4 +66,24 @@
     padding: 50px 20px;
     border-radius: 30px 10px;
   }
+}
+
+.w-header {
+  padding-top: 20px;
+  text-align: center;
+  font-size: 50px;
+  color: #ac1527;
+}
+
+.card-group {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px;
+  background-color: #a3849b;
+  height: 500px;
+}
+
+#fcard {
+  background-color: deeppink;
+  border: solid whitesmoke 15px;
 }
