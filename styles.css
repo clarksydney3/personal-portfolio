@@ -87,3 +87,11 @@
   background-color: deeppink;
   border: solid whitesmoke 15px;
 }
+
+.hs-hero-image {
+  /* background: ; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  background-position: center;
+}
