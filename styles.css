@@ -87,11 +87,3 @@
   background-color: deeppink;
   border: solid whitesmoke 15px;
 }
-
-.hs-hero-image {
-  background: url(https://scontent-ort2-1.xx.fbcdn.net/v/t39.30808-6/277779026_4981617185287467_595749814913750043_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=730e14&_nc_ohc=8P2A4YGa8OkAX8E7oXF&_nc_ht=scontent-ort2-1.xx&oh=00_AT-rEme_5916VrAn3pgEEPlFprwSeLZclaEkTwLUn29PYA&oe=626BE336);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 750px;
-  background-position: center;
-}
