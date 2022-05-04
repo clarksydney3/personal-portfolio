@@ -9,16 +9,30 @@
 /* brown nav 6B544C */
 /* beige: DEC3AF */
 /* mauve: 86525E */
+/* dark blue: 51649C */
+
 body {
   margin: 0;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
+.imgs {
+  display: flex;
+  position: relative;
+}
 .highschool-hero {
+  position: relative;
   background-color: #86525e;
-  padding-top: 5px;
   padding-left: 10px;
   padding-bottom: 10px;
+}
+.stars {
+  position: absolute;
+  transform: rotateX(180deg), rotateY(180deg);
+  top: 0;
+  height: 350px;
+  right: 10px;
+  width: 35%;
 }
 
 .hs-hero-image {
@@ -32,10 +46,10 @@ body {
   position: absolute;
   padding: 20px;
   padding-right: 70px;
-  background-color: rgba(201, 180, 175, 0.8);
+  background-color: rgba(201, 180, 175, 0.9);
   color: #4c404e;
-  bottom: 50px;
-  right: 50px;
+  bottom: 250px;
+  right: 70px;
   font-size: 75px;
   border-radius: 5px;
 }
@@ -49,11 +63,11 @@ nav {
 }
 
 nav a:hover {
-  background-color: #664b3d;
+  background-color: #a7714e;
 }
 
 #target {
-  background-color: #6b544c;
+  background-color: #b57f5b;
   height: auto;
   padding: 10px;
 }
@@ -68,4 +82,17 @@ nav a:hover {
   display: flex;
   justify-content: center;
   align-content: center;
+  color: #664b3d;
+  border-bottom: #6b544c solid 2px;
+}
+
+.n-hero {
+  background-color: #dec3af;
+  padding: 15px;
+}
+
+h2 {
+  color: #51649c;
+  padding: 10px;
+  border-bottom: #51649c 5px dotted;
 }
