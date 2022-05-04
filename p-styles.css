@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+}
+nav {
+  font-family: monospace;
+  padding: 00;
+}
+.navbar-brand {
+  color: thistle;
+  padding: 2px;
+}
+
+nav a:hover {
+  background-color: #a7714e;
+}
+
+#target {
+  background-color: #b57f5b;
+  height: auto;
+  padding: 10px;
+}
+#cont {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.imgs {
+  display: flex;
+  position: relative;
+  background-color: #1a2a6b;
+}
+
+.hero-text {
+  position: absolute;
+  padding: 20px;
+  padding-right: 70px;
+  background-color: rgba(201, 180, 175, 0.9);
+  color: #4c404e;
+  bottom: 200px;
+  right: 70px;
+  font-size: 75px;
+  border-radius: 5px;
+}
+
+.prog-hero {
+  height: 500px;
+  width: 75%;
+  position: relative;
+}
+.sec-hero {
+  position: absolute;
+  transform: rotateY(180deg);
+  height: 500px;
+  right: 10px;
+  width: 35%;
+}
+
+.cont {
+  color: whitesmoke;
+  background-color: #1a2a6b;
+  padding: 10px;
+}
+
+.e-content {
+  display: flex;
+  margin-left: 150px;
+  margin-right: 250px;
+  /* justify-content: space-evenly; */
+}
+
+.l-content {
+  display: flex;
+  margin-left: 200px;
+}
+
+.y-syd,
+.l-pic {
+  height: 350px;
+  padding: 15px;
+  border-radius: 2px;
+}
+
+.l-pic {
+  margin: 50px;
+}
+
+.y-cont {
+  font-size: 20px;
+  padding: 15px;
+  margin-top: 70px;
+}
+
+.rig {
+  margin-left: 150px;
+  padding-left: 150px;
+  border-bottom: thistle solid 2px;
+}
+
+.opp {
+  margin-right: 150px;
+  padding-right: 150px;
+  border-bottom: thistle solid 2px;
+}
+
+/* .l-pic {
+  height: 350px;
+} */
+.x-cont {
+  font-size: 20px;
+  padding: 15px;
+  margin-top: 70px;
+}
