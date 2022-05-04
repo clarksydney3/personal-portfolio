@@ -14,6 +14,10 @@ nav a:hover {
   background-color: #a7714e;
 }
 
+h1 {
+  color: #f29569;
+}
+
 #target {
   background-color: #b57f5b;
   height: auto;
@@ -67,13 +71,15 @@ nav a:hover {
   /* justify-content: space-evenly; */
 }
 
-.l-content {
+.l-content,
+.f-can {
   display: flex;
   margin-left: 200px;
 }
 
 .y-syd,
-.l-pic {
+.l-pic,
+.f-image {
   height: 350px;
   padding: 15px;
   border-radius: 2px;
@@ -89,6 +95,11 @@ nav a:hover {
   margin-top: 70px;
 }
 
+.f-cont {
+  font-size: 20px;
+  padding: 15px;
+}
+
 .rig {
   margin-left: 150px;
   padding-left: 150px;
@@ -101,9 +112,6 @@ nav a:hover {
   border-bottom: thistle solid 2px;
 }
 
-/* .l-pic {
-  height: 350px;
-} */
 .x-cont {
   font-size: 20px;
   padding: 15px;
