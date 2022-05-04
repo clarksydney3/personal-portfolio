@@ -113,7 +113,8 @@ h2 {
 }
 .fh-content,
 .s-content,
-.j-content {
+.j-content,
+.sen-content {
   display: flex;
   justify-content: space-evenly;
 }
@@ -140,7 +141,8 @@ h2 {
 
 #fo,
 #so,
-#jo {
+#jo,
+#seno {
   margin-left: 100px;
   margin-right: 100px;
   font-size: 17px;
@@ -150,7 +152,9 @@ h2 {
 #so-title,
 #sh-title,
 #jh-title,
-#jo-title {
+#jo-title,
+#seno-title,
+#senh-title {
   display: flex;
   justify-content: center;
   align-content: center;
@@ -170,7 +174,8 @@ h2 {
 }
 
 #sop-list,
-#j-list {
+#j-list,
+#seno-list {
   font-size: 20px;
 }
 
@@ -178,13 +183,18 @@ h2 {
   color: #b62f2b;
   padding: 10px;
 }
+#seno-list li {
+  color: #b62f2b;
+  padding: 5px;
+}
 
 #j-list li {
   color: #5d6732;
   padding: 5px;
 }
 .sop-syd,
-.jun-syd {
+.jun-syd,
+.sen-syd {
   height: 300px;
   width: auto;
 }
@@ -197,4 +207,14 @@ h2 {
 #jo-title {
   color: #2e4aaf;
   background-color: rgba(46, 74, 175, 0.4);
+}
+
+#senh-title {
+  color: #460b50;
+  background-color: rgba(70, 11, 80, 0.4);
+}
+
+#seno-title {
+  color: #531927;
+  background-color: rgba(83, 25, 39, 0.4);
 }
