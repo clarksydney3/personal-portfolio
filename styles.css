@@ -9,6 +9,10 @@
 /* brown nav 6B544C */
 /* mauve 6B544C */
 
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
 #container {
   background-color: #c4c8d4;
 }
@@ -22,6 +26,9 @@ nav {
   padding: 2px;
 }
 
+nav a {
+  color: #bcabb5;
+}
 nav a:hover {
   background-color: #664b3d;
 }
@@ -51,14 +58,11 @@ nav a:hover {
 }
 
 .hero-text {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   background-color: rgba(207, 172, 168, 0.3);
   margin-top: 325px;
   margin-left: 50px;
   border-radius: 5px;
   padding: 10px 150px 10px 10px;
-  font-weight: bold;
   position: absolute;
   color: #331618;
   font-size: 75px;
@@ -91,7 +95,7 @@ nav a:hover {
   display: flex;
   justify-content: space-evenly;
   margin: 10px;
-  background-color: #a3849b;
+  background-color: #bcabb5;
   height: auto;
 }
 
@@ -99,6 +103,7 @@ nav a:hover {
   background-color: #6b544c;
   margin: 15px;
   border-radius: 5px;
+  color: #dec3af;
 }
 
 #lcard {
@@ -113,4 +118,11 @@ nav a:hover {
 
 #s-image {
   border-radius: 5px;
+}
+
+.card-title {
+  font-size: 25px;
+}
+.card-text {
+  font-size: 20px;
 }

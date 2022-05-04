@@ -1,5 +1,22 @@
+/* light purple: C5AEA9 */
+/* dark brown: #664b3d; */
+/* green: 8EA366 */
+/* Light peachy/pink: F29569 */
+/* yellow: F6EA64 */
+/* orange: EEA148 */
+/* light purple: A3849B */
+/* light blue C4C8D4 */
+/* brown nav 6B544C */
+/* beige: DEC3AF */
+/* mauve: 86525E */
 body {
   margin: 0;
+}
+.highschool-hero {
+  background-color: #86525e;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-bottom: 10px;
 }
 
 .hs-hero-image {
@@ -12,9 +29,40 @@ body {
 .hero-header {
   position: absolute;
   padding: 20px;
-  background-color: #c9b4af;
+  background-color: rgba(201, 180, 175, 0.6);
   color: #4c404e;
   bottom: 50px;
   right: 50px;
   font-size: 75px;
+  border-radius: 5px;
+}
+nav {
+  font-family: monospace;
+  padding: 00;
+}
+.navbar-brand {
+  color: thistle;
+  padding: 2px;
+}
+
+nav a:hover {
+  background-color: #664b3d;
+}
+
+#target {
+  background-color: #6b544c;
+  height: auto;
+  padding: 10px;
+}
+#cont {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.body-header {
+  width: 100%;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
