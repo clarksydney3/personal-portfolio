@@ -15,6 +15,7 @@ body {
 }
 #container {
   background-color: #c4c8d4;
+  padding-bottom: 30px;
 }
 
 nav {
@@ -26,9 +27,6 @@ nav {
   padding: 2px;
 }
 
-nav a {
-  color: #bcabb5;
-}
 nav a:hover {
   background-color: #664b3d;
 }
@@ -86,9 +84,11 @@ nav a:hover {
 
 .w-header {
   padding-top: 20px;
-  text-align: center;
+  padding-left: 40px;
+  text-align: left;
   font-size: 50px;
   color: #331618;
+  border-bottom: solid 2px #331618;
 }
 
 .card-group {
@@ -125,4 +125,14 @@ nav a:hover {
 }
 .card-text {
   font-size: 20px;
+}
+
+.blue {
+  height: 150px;
+}
+
+.detail {
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }

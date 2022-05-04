@@ -11,6 +11,8 @@
 /* mauve: 86525E */
 body {
   margin: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 .highschool-hero {
   background-color: #86525e;
@@ -29,7 +31,8 @@ body {
 .hero-header {
   position: absolute;
   padding: 20px;
-  background-color: rgba(201, 180, 175, 0.6);
+  padding-right: 70px;
+  background-color: rgba(201, 180, 175, 0.8);
   color: #4c404e;
   bottom: 50px;
   right: 50px;
