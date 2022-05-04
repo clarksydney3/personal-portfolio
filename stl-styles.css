@@ -11,15 +11,87 @@ nav {
 }
 
 nav a:hover {
-  background-color: #a7714e;
+  background-color: #6f4c40;
 }
 
 #target {
-  background-color: #b57f5b;
+  background-color: #8d7269;
   height: auto;
   padding: 10px;
 }
 #cont {
   padding-top: 0;
   padding-bottom: 0;
+}
+
+.hero-image {
+  height: auto;
+  background-color: thistle;
+  width: 100%;
+  padding-bottom: 69px;
+}
+
+@media (min-width: 600px) {
+  .hero-text {
+    position: absolute;
+    padding: 15px;
+    padding-left: 50px;
+    background-color: rgba(83, 25, 39, 0.7);
+    color: #dec3af;
+    bottom: 100px;
+    left: 70px;
+    font-size: 75px;
+    border-radius: 5px;
+  }
+}
+@media (max-width: 600px) {
+  .hero-text {
+    display: none;
+  }
+}
+
+.content {
+  padding: 15px;
+  background-color: #8ea366;
+}
+
+.pit-comp {
+  height: 300px;
+  padding: 15px;
+  border-radius: 5px;
+}
+.flex {
+  display: flex;
+}
+h2 {
+  font-size: 30px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#s-list {
+  margin-left: 150px;
+}
+
+#s-list li {
+  font-size: 25px;
+  padding: 5px;
+  color: #301535;
+}
+
+.f-header {
+  color: #743e29;
+  background-color: rgba(163, 109, 88, 0.5);
+}
+
+.s-header {
+  color: #192852;
+  background-color: rgba(85, 98, 135, 0.4);
+}
+
+#s-body {
+  margin-top: 30px;
+  padding: 15px;
+  font-size: 20px;
+  color: #301535;
 }

@@ -28,11 +28,11 @@ nav {
 }
 
 nav a:hover {
-  background-color: #a7714e;
+  background-color: #6f4c40;
 }
 
 #target {
-  background-color: #b57f5b;
+  background-color: #8d7269;
   height: auto;
   padding: 10px;
 }
@@ -48,7 +48,7 @@ nav a:hover {
   height: 600px;
 }
 .hero-background {
-  background: #a36d58;
+  background: #a1654d;
   background-repeat: no-repeat;
   background-size: cover;
   height: 500px;
