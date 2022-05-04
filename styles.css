@@ -17,8 +17,9 @@ nav {
   font-family: monospace;
   padding: 00;
 }
-a.navbar-brand {
+.navbar-brand {
   color: thistle;
+  padding: 2px;
 }
 
 nav a:hover {
@@ -29,11 +30,13 @@ nav a:hover {
   background-color: #6b544c;
   height: auto;
   padding: 10px;
-  color: thistle;
 }
 #cont {
   padding-top: 0;
   padding-bottom: 0;
+}
+.nav-link {
+  color: #a3849b;
 }
 
 .hero {
@@ -74,13 +77,14 @@ nav a:hover {
   height: 600px;
   width: auto;
   margin-left: 150px;
+  border-radius: 5px;
 }
 
 .w-header {
   padding-top: 20px;
   text-align: center;
   font-size: 50px;
-  color: #ac1527;
+  color: #331618;
 }
 
 .card-group {
@@ -88,10 +92,25 @@ nav a:hover {
   justify-content: space-evenly;
   margin: 10px;
   background-color: #a3849b;
-  height: 500px;
+  height: auto;
 }
 
 #fcard {
-  background-color: deeppink;
-  border: solid whitesmoke 15px;
+  background-color: #6b544c;
+  margin: 15px;
+  border-radius: 5px;
+}
+
+#lcard {
+  height: auto;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.intro {
+  padding: 10px;
+}
+
+#s-image {
+  border-radius: 5px;
 }
