@@ -50,7 +50,8 @@ nav a:hover {
   }
 }
 
-.content {
+.content,
+#container {
   padding: 15px;
   background-color: #8ea366;
 }
@@ -94,4 +95,40 @@ h2 {
   padding: 15px;
   font-size: 20px;
   color: #301535;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa-instagram,
+.fa-facebook,
+.fa-twitter {
+  color: white;
+}
+
+.fa-instagram:hover,
+.fa-facebook:hover,
+.fa-twitter:hover {
+  color: #f29569;
+}
+.socials {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: space-evenly;
+  justify-content: center;
+  align-content: center;
+  padding: 15px;
+}
+
+.instagram,
+.twitter,
+.facebook {
+  font-size: 50px;
+  padding: 20px;
 }
